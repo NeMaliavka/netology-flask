@@ -17,7 +17,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-# Список для хранения объявлений
+#Список для хранения объявлений
 ads = []
 ad_id_counter = 1
 
